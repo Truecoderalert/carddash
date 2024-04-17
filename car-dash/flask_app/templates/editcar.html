@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {%for c in car%}
+    <form action="/re_verify/{{c.id}}" method="post">
+        <label for="name">name</label>
+        <input type="text" name="name" value="{{c.name}}">
+        <label for="liscenseplate_number">liscenseplate_number</label>
+        <input type="text" name="liscenseplate_number" value="{{c.liscenseplate_number}}">
+        <label for="color">color</label>
+        <input type="text" name="color" value="{{c.color}}">
+        <label for="model">model</label>
+        <input type="text" name="model" value="{{c.model}}">
+        <input type="hidden"name="user_id" value="{{session['user_id']}}">
+        <input type="hidden" name="id" value="{{c.id}}">
+        <input type="submit">
+        {%endfor%}
+</body>
+</html>

@@ -1,0 +1,6 @@
+body{ background: linear-gradient(280deg,#770ad8,#480f06);}
+label{color: white; display: flex; }
+.forms{margin-left: 35%; margin-top: 200px;}
+input{width: 400px; display: flex;border-radius: 20%;}
+button{display: flex;}
+

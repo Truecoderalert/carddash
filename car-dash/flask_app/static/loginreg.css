@@ -1,0 +1,19 @@
+#first_name{margin-top: 50px; margin-left: 50px;}
+#fnameinput{border-color: black;}
+#lnameinput{border-color: black;}
+#last_name{margin-top: 50px; margin-left: 50px;}
+#email{margin-top: 50px; margin-left: 50px;}
+#password{margin-top: 50px; margin-left: 50px;}
+.register{border-style: solid; width: 400px;border-radius: 20px;margin-left: 125px; margin-top: 20px; border-color: aliceblue;height: 500px;}
+body{ background: linear-gradient(280deg,#770ad8,#480f06);
+    background-size: 120% 120%;
+    animation: gradient-animation 12s ease infinite;}
+h1{color: aliceblue;}
+.forms{display: flex; justify-content: space-evenly; font-family: Arial, Helvetica, sans-serif;}
+.login{border-style: solid; width: 400px;border-radius: 20px; margin-top: 20px; border-color: aliceblue;}
+#emailgn{margin-top: 80px; margin-left: 50px;}
+#pw{margin-top: 50px; margin-left: 50px;}
+.messages{color: aliceblue;}
+p{color: aliceblue;}
+button{float: right;}
+
